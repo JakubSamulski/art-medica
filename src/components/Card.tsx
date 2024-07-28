@@ -45,7 +45,7 @@ const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items }) => {
     );
 
     return (
-        <Box sx={{ width: 450,maxWidth:500,maxHeight: 500}}>
+        <Box sx={{maxWidth:500,maxHeight: 500}}>
             <Card variant="outlined">{card}</Card>
         </Box>
     );

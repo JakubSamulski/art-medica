@@ -23,7 +23,7 @@ export default function HomePage() {
                 <img src={Tata}/>
             </div>
             <div className="cards-container">
-                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Zabiegi Chirurgiczne"}/>
+                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Różne zabiegi Chirurgiczne"}/>
                 <OutlinedCard items={["Botoks","Mezoterapia","Nici PDO i haczykowe","Osocze/Fibryna"]} title={"Zabiegi medycyny estetycznej"}/>
                 <OutlinedCard items={["Powieki górne i dolne","Liposukcja","Lifting twarzy","Korekcja odstających uszu"]} title={"Zabiegi chirurgii estetycznej"}/>
             </div>

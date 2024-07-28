@@ -1,6 +1,6 @@
 import ResponsiveAppBar from "../ResponsiveAppBar.tsx";
 import office from "../../assets/Office.png"
-import Tata from "../../assets/Tata.webp";
+
 export default function LocationPage() {
 
     return(
@@ -25,9 +25,9 @@ export default function LocationPage() {
                         width="100%"
                         height="500"
                         style={{ border: 0, marginBottom: 100}}
-                        allowfullscreen=""
+                        allowFullScreen
                         loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                     >
                     </iframe>
                 </div>
