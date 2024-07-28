@@ -1,0 +1,52 @@
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 64px; /* Adjusted for navbar height */
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0; /* Remove bottom margin */
+    position: relative;
+    z-index: 1;
+}
+
+/* Add this new class for h2 elements */
+.center-container h2 {
+    margin-top: 0.5em; /* Reduce top margin */
+    margin-bottom: 0.5em; /* Reduce bottom margin */
+}
+
+/* Updated navbar-container class */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    padding-top: 64px; /* Adjust this value to match the height of your navbar */
+}
+.center-container h2 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.top-container h1 {
+    margin-top: 0.7em;
+    margin-bottom: 0em;
+}
+
+.green-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
