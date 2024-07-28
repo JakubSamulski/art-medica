@@ -10,6 +10,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import artMedicaImage from '../assets/logo_art_medica.png';
 import Container from '@mui/material/Container';
+import {Link} from "react-router-dom";
 
 const pages = ['Zabiegi chirurgiczne', 'Medycyna estetyczna', 'Chirurgia estetyczna', 'Lokalizacja'];
 
@@ -66,7 +67,8 @@ function ResponsiveAppBar() {
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
+
+                                    <Typography textAlign="center" component={Link} to={`/${page.toLowerCase().replace(' ', '-')}`}>{page}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>
