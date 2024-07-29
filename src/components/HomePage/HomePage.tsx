@@ -17,13 +17,13 @@ export default function HomePage() {
                 <h2>Lek. med. Zbigniew Samulski</h2>
             </div>
             <div className="center-container">
-                <h3>Gabinet chirurgii i medycyny estetyczne</h3>
+                <h3>Gabinet chirurgii i medycyny estetycznej</h3>
             </div>
             <div className="center-container">
-                <img src={Tata}/>
+                <img src={Tata} width="400px" />
             </div>
             <div className="cards-container">
-                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Różne zabiegi Chirurgiczne"}/>
+                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Zabiegi Chirurgiczne"}/>
                 <OutlinedCard items={["Botoks","Mezoterapia","Nici PDO i haczykowe","Osocze/Fibryna"]} title={"Zabiegi medycyny estetycznej"}/>
                 <OutlinedCard items={["Powieki górne i dolne","Liposukcja","Lifting twarzy","Korekcja odstających uszu"]} title={"Zabiegi chirurgii estetycznej"}/>
             </div>

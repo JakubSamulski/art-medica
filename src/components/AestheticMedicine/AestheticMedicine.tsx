@@ -1,6 +1,7 @@
 import ResponsiveAppBar from "../ResponsiveAppBar.tsx";
 import './AestheticMedicine.css';
 import AccordionExpanded from "../AccrodionExpanded.tsx";
+import forehead from "../../assets/forehead.webp"
 import {
     botoxContent,
     botoxTitle, fibrinContent,
@@ -24,7 +25,7 @@ export default function AestheticMedicinePage() {
                     <h2>Medycyna estetyczna</h2>
                 </div>
                 <div className="accordion-container">
-                    <AccordionExpanded title={botoxTitle} content={botoxContent}/>
+                    <AccordionExpanded title={botoxTitle} content={botoxContent} imageSrc={forehead}/>
                     <BaseAccordion title={mesotherapyTitle} content={mesotherapyContent}/>
                     <BaseAccordion title={pdoStringTitle} content={pdoStringsContent}/>
                     <BaseAccordion title={fibrinTitle} content={fibrinContent}/>

@@ -1,6 +1,5 @@
 export const botoxTitle = "BOTOX (preparat Bocouture)"
 export const botoxContent = `<u>Iniekcje botoksu</u> to w pełni bezpieczny i skuteczny zabieg o szerokim zastosowaniu przeciwzmarszczkowym. Zabieg  polega na podaniu małej dawki toksyny botulinowej do wybranych miejsc na twarzy, dzięki czemu likwidujemy problemy wywoływane przez kurczenie się mięśni.Każdego dnia, gdy uśmiechamy się lub też marszczymy brwi następuje skurcz mięśni naszej twarzy. W wyniku tego powstają fałdy skórne powodujące zmarszczki. Zmarszczki te z upływem lat stają się coraz bardziej widoczne i głębokie . Z pomocą w likwidowaniu problemów wywołanych przez kurczenie się mięśni, czyli zmarszczek przychodzi nam toksyna botulinowa. Preparat ten skutecznie wygładza zmarszczki mimiczne i przywraca twarzy młodość i „świeży” wygląd.
-
 <u>Działanie</u>
 Toksyna botulinowa blokuje przechodzenie bodźców z nerwów do mięśni twarzy, które są ściśle powiązane z liniami wyrazu/mimiki  twarzy. Preparat ten działa jedynie w obrębie mięśni, do których został wstrzyknięty, zapobiegając skurczowi tych mięśni oraz marszczeniu się skóry, prowadząc tym samym do rozluźnienia mięśnia i znajdującej się nad nim skóry. 
 
@@ -37,7 +36,6 @@ Zaleca się unikanie ciężkiego wysiłku bezpośrednio po zabiegu, oraz korzyst
 <li>bruksizm od 1000 zł</li>
 <li>dostrzykiwanie  1 jednostka – 30 zł</li>
 </ul>
-<img src="src/assets/forehead.webp">
 `
 export const mesotherapyTitle = "Mezoterapia"
 export const mesotherapyContent = "Do dodania"

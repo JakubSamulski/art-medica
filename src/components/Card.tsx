@@ -15,7 +15,7 @@ const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items }) => {
     const card = (
         <React.Fragment>
             <CardContent>
-                <Typography variant="h3" component="div" sx={{ mb: 3 }}>
+                <Typography variant="h3" component="div" sx={{ mb: 3, minHeight: '120px', display: 'flex', }}>
                     {title}
                 </Typography>
                 <Typography component="ul" sx={{ pl: 4 }}>
@@ -38,15 +38,15 @@ const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items }) => {
                     variant="contained"
                     color="primary"
                 >
-                    Learn More
+                    Więcej
                 </Button>
             </CardActions>
         </React.Fragment>
     );
 
     return (
-        <Box sx={{maxWidth:500,maxHeight: 500}}>
-            <Card variant="outlined">{card}</Card>
+        <Box sx={{ maxWidth: 500, height: '100%' }}>
+            <Card variant="outlined" sx={{ height: '100%' }}>{card}</Card>
         </Box>
     );
 }

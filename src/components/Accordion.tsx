@@ -5,10 +5,16 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './Accordion.css';
 
-export default function BaseAccordion({title, content}: {title: string, content: string}) {
+interface BaseAccordionProps {
+    title: string;
+    content: string;
+    imageSrc?: string;
+}
+
+export default function BaseAccordion({ title, content, imageSrc }: BaseAccordionProps) {
     return (
         <div>
-            <Accordion elevation={1} sx={{ marginBlock:1}}>
+            <Accordion elevation={1} sx={{ marginBlock: 1 }}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2-content"
@@ -22,6 +28,11 @@ export default function BaseAccordion({title, content}: {title: string, content:
                         style={{ whiteSpace: 'pre-line' }}
                         dangerouslySetInnerHTML={{ __html: content }}
                     />
+                    {imageSrc && (
+                        <div style={{ marginTop: '1rem', textAlign: 'center' }}>
+                            <img src={imageSrc} alt={title} style={{ maxWidth: '100%', height: 'auto' }} />
+                        </div>
+                    )}
                 </AccordionDetails>
             </Accordion>
         </div>
