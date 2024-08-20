@@ -68,7 +68,14 @@ function ResponsiveAppBar() {
                             {pages.map((page) => (
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
 
-                                    <Typography textAlign="center" component={Link} to={`/${page.toLowerCase().replace(' ', '-')}`}>{page}</Typography>
+                                    <Typography
+                                        textAlign="center"
+                                        component={Link}
+                                        to={`/${page.toLowerCase().replace(' ', '-')}`}
+                                        sx={{ color: 'black', textDecoration: 'none' }}
+                                    >
+                                        {page}
+                                    </Typography>
                                 </MenuItem>
                             ))}
                         </Menu>

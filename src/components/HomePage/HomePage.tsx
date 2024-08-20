@@ -20,7 +20,7 @@ export default function HomePage() {
                 <h3>Gabinet chirurgii i medycyny estetycznej</h3>
             </div>
             <div className="center-container">
-                <img src={Tata} width="400px" />
+                <img src={Tata} width="360px"  alt={"Zbigniew Samulski"}/>
             </div>
             <div className="cards-container">
                 <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Zabiegi Chirurgiczne"}/>

@@ -1,5 +1,5 @@
 import ResponsiveAppBar from "../ResponsiveAppBar.tsx";
-import office from "../../assets/Office.png"
+// import office from "../../assets/Office.png"
 
 export default function LocationPage() {
 
@@ -13,9 +13,9 @@ export default function LocationPage() {
                 <div className="top-container">
                     <h2>Lokalizacja</h2>
                 </div>
-                <div className="center-container">
-                    <img src={office}/>
-                </div>
+                {/*<div className="center-container">*/}
+                {/*    <img src={office}/>*/}
+                {/*</div>*/}
                 <div className="center-container">
                     <h3> Ul. Paderewskiego 76B Gorzów Wielkopolski</h3>
                 </div>
