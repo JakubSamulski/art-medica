@@ -9,9 +9,10 @@ import Typography from '@mui/material/Typography';
 interface OutlinedCardProps {
     title: string;
     items: string[];
+    link: string;
 }
 
-const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items }) => {
+const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items,link }) => {
     const card = (
         <React.Fragment>
             <CardContent>
@@ -37,6 +38,7 @@ const OutlinedCard: React.FC<OutlinedCardProps> = ({ title, items }) => {
                     size="medium"
                     variant="contained"
                     color="primary"
+                    href={link}
                 >
                     Więcej
                 </Button>

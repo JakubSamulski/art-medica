@@ -23,9 +23,9 @@ export default function HomePage() {
                 <img src={Tata} width="360px"  alt={"Zbigniew Samulski"}/>
             </div>
             <div className="cards-container">
-                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Zabiegi Chirurgiczne"}/>
-                <OutlinedCard items={["Botoks","Mezoterapia","Nici PDO i haczykowe","Osocze/Fibryna"]} title={"Zabiegi medycyny estetycznej"}/>
-                <OutlinedCard items={["Powieki górne i dolne","Liposukcja","Lifting twarzy","Korekcja odstających uszu"]} title={"Zabiegi chirurgii estetycznej"}/>
+                <OutlinedCard items={["Usuwanie zmian skórnych","Korekta blizn","Konsultacje chirurgiczne","tbd"]} title={"Zabiegi Chirurgiczne"} link={"zabiegi-chirurgiczne"}/>
+                <OutlinedCard items={["Botoks","Mezoterapia","Nici PDO i haczykowe","Osocze/Fibryna"]} title={"Zabiegi medycyny estetycznej"} link={"medycyna-estetyczna"}/>
+                <OutlinedCard items={["Powieki górne i dolne","Liposukcja","Lifting twarzy","Korekcja odstających uszu"]} title={"Zabiegi chirurgii estetycznej"} link={"chirurgia-estetyczna"}/>
             </div>
             <InfoSection text={''} />
 
