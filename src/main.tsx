@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {StyledEngineProvider} from "@mui/material/styles";
 import App from "./App.tsx";
-
+import './firebase';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
       <StyledEngineProvider injectFirst>
@@ -11,3 +11,4 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </StyledEngineProvider>
   </React.StrictMode>,
 )
+

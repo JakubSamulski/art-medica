@@ -38,11 +38,11 @@ Zaleca się unikanie ciężkiego wysiłku bezpośrednio po zabiegu, oraz korzyst
 </ul>
 `
 export const mesotherapyTitle = "Mezoterapia"
-export const mesotherapyContent = "Do dodania"
+export const mesotherapyContent = "Więcej informacji wkrótce"
 
 export const pdoStringTitle = "Nici PDO i haczykowe"
-export const pdoStringsContent = "Do dodania"
+export const pdoStringsContent = "Więcej informacji wkrótce"
 
 export const fibrinTitle = "Osocze/Fibryna"
-export const fibrinContent = "Do dodania"
+export const fibrinContent = "Więcej informacji wkrótce"
 
