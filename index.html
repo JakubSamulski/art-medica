@@ -9,7 +9,7 @@
     <title>Art Medica - Lek. med. Zbigniew Samulski</title>
     <!-- Google Fonts: Roboto and Inter -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/assets/logo_art_medica.png">
@@ -20,68 +20,92 @@
     <div id="navbar-container"></div>
 
     <main class="page-content">
-        <div class="top-container">
-            <h1>Art Medica</h1>
-        </div>
-        <div class="center-container">
-            <h2>Lek. med. Zbigniew Samulski</h2>
-        </div>
-        <div class="center-container">
-            <h3>Gabinet chirurgii i medycyny estetycznej</h3>
-        </div>
-        <div class="center-container img-container">
-            <img src="/assets/Tata.webp" alt="Zbigniew Samulski" />
-        </div>
-
-        <div class="cards-container">
-            <!-- Card 1 -->
-            <div class="card card-outlined">
-                <div class="card-content">
-                    <div class="card-title">Zabiegi Chirurgiczne</div>
-                    <ul class="card-list">
-                        <li>Usuwanie zmian skórnych</li>
-                        <li>Korekta blizn</li>
-                        <li>Konsultacje chirurgiczne</li>
-                        <li>tbd</li>
-                    </ul>
-                </div>
-                <div class="card-actions">
-                    <a href="/zabiegi-chirurgiczne.html" class="card-btn">Więcej</a>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Art Medica</h1>
+                <h2 class="hero-subtitle">Gabinet chirurgii i medycyny estetycznej</h2>
+                <div class="hero-cta">
+                    <a href="#about-doctor" class="btn btn-primary">Poznaj Doktora</a>
+                    <a href="/lokalizacja.html" class="btn btn-outline">Lokalizacja</a>
                 </div>
             </div>
+        </section>
 
-            <!-- Card 2 -->
-            <div class="card card-outlined">
-                <div class="card-content">
-                    <div class="card-title">Zabiegi medycyny estetycznej</div>
-                    <ul class="card-list">
-                        <li>Botoks</li>
-                        <li>Mezoterapia</li>
-                        <li>Nici PDO i haczykowe</li>
-                        <li>Osocze/Fibryna</li>
-                    </ul>
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Nasze Usługi</h2>
+                    <p class="section-description">Oferujemy szeroki wachlarz profesjonalnych zabiegów dopasowanych do
+                        Twoich potrzeb.</p>
                 </div>
-                <div class="card-actions">
-                    <a href="/medycyna-estetyczna.html" class="card-btn">Więcej</a>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Zabiegi Chirurgiczne</h3>
+                            <ul class="card-list">
+                                <li>Usuwanie zmian skórnych</li>
+                                <li>Korekta blizn</li>
+                                <li>Konsultacje chirurgiczne</li>
+                                <li>Inne procedury medyczne</li>
+                            </ul>
+                            <a href="/zabiegi-chirurgiczne.html" class="card-link">Dowiedz się więcej <span
+                                    class="arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Medycyna Estetyczna</h3>
+                            <ul class="card-list">
+                                <li>Toksyna botulinowa (Botoks)</li>
+                                <li>Mezoterapia</li>
+                                <li>Nici PDO i haczykowe</li>
+                                <li>Osocze i Fibryna</li>
+                            </ul>
+                            <a href="/medycyna-estetyczna.html" class="card-link">Dowiedz się więcej <span
+                                    class="arrow">→</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Chirurgia Estetyczna</h3>
+                            <ul class="card-list">
+                                <li>Korekcja powiek górnych i dolnych</li>
+                                <li>Liposukcja</li>
+                                <li>Lifting twarzy szyi</li>
+                                <li>Korekcja odstających uszu</li>
+                            </ul>
+                            <a href="/chirurgia-estetyczna.html" class="card-link">Dowiedz się więcej <span
+                                    class="arrow">→</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Card 3 -->
-            <div class="card card-outlined">
-                <div class="card-content">
-                    <div class="card-title">Zabiegi chirurgii estetycznej</div>
-                    <ul class="card-list">
-                        <li>Powieki górne i dolne</li>
-                        <li>Liposukcja</li>
-                        <li>Lifting twarzy</li>
-                        <li>Korekcja odstających uszu</li>
-                    </ul>
+        <!-- About Doctor Section -->
+        <section id="about-doctor" class="about-section">
+            <div class="section-container about-grid">
+                <div class="about-image-wrapper">
+                    <img src="/assets/Tata.webp" alt="Lek. med. Zbigniew Samulski" class="about-image" />
+                    <div class="image-accent"></div>
                 </div>
-                <div class="card-actions">
-                    <a href="/chirurgia-estetyczna.html" class="card-btn">Więcej</a>
+                <div class="about-content">
+                    <h2 class="section-title text-left">Lek. med. Zbigniew Samulski</h2>
+                    <h3 class="about-subtitle">Chirurg Ogólny, Chirurg medycyny estetycznej</h3>
+                    <div class="about-cta">
+                        <a href="/lokalizacja.html" class="btn btn-primary">Skontaktuj się</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Footer injected here via JS -->
