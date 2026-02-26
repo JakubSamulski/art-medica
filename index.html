@@ -1,13 +1,93 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Art-Medica</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Art Medica - Gabinet chirurgii i medycyny estetycznej - Lek. med. Zbigniew Samulski. Gorzów Wielkopolski. Oferujemy zabiegi chirurgiczne, medycynę estetyczną oraz chirurgię estetyczną.">
+    <title>Art Medica - Lek. med. Zbigniew Samulski</title>
+    <!-- Google Fonts: Roboto and Inter -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/assets/logo_art_medica.png">
+</head>
+
+<body>
+    <!-- Navbar injected here via JS -->
+    <div id="navbar-container"></div>
+
+    <main class="page-content">
+        <div class="top-container">
+            <h1>Art Medica</h1>
+        </div>
+        <div class="center-container">
+            <h2>Lek. med. Zbigniew Samulski</h2>
+        </div>
+        <div class="center-container">
+            <h3>Gabinet chirurgii i medycyny estetycznej</h3>
+        </div>
+        <div class="center-container img-container">
+            <img src="/assets/Tata.webp" alt="Zbigniew Samulski" />
+        </div>
+
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="card card-outlined">
+                <div class="card-content">
+                    <div class="card-title">Zabiegi Chirurgiczne</div>
+                    <ul class="card-list">
+                        <li>Usuwanie zmian skórnych</li>
+                        <li>Korekta blizn</li>
+                        <li>Konsultacje chirurgiczne</li>
+                        <li>tbd</li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="/zabiegi-chirurgiczne.html" class="card-btn">Więcej</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card card-outlined">
+                <div class="card-content">
+                    <div class="card-title">Zabiegi medycyny estetycznej</div>
+                    <ul class="card-list">
+                        <li>Botoks</li>
+                        <li>Mezoterapia</li>
+                        <li>Nici PDO i haczykowe</li>
+                        <li>Osocze/Fibryna</li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="/medycyna-estetyczna.html" class="card-btn">Więcej</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card card-outlined">
+                <div class="card-content">
+                    <div class="card-title">Zabiegi chirurgii estetycznej</div>
+                    <ul class="card-list">
+                        <li>Powieki górne i dolne</li>
+                        <li>Liposukcja</li>
+                        <li>Lifting twarzy</li>
+                        <li>Korekcja odstających uszu</li>
+                    </ul>
+                </div>
+                <div class="card-actions">
+                    <a href="/chirurgia-estetyczna.html" class="card-btn">Więcej</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer injected here via JS -->
+    <div id="footer-container"></div>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+
 </html>
