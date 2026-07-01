@@ -137,7 +137,7 @@ section {
   justify-content: center;
   text-align: center;
   padding: 40px 24px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(229, 246, 246, 0.9) 100%), url('/assets/Tata.webp') no-repeat center center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(229, 246, 246, 0.9) 100%);
   background-size: cover;
   background-attachment: fixed;
   isolation: isolate;
@@ -638,7 +638,6 @@ section {
 
 .panel-content {
   padding: 16px 0;
-  white-space: pre-line;
   text-align: left;
   color: var(--text-light);
 }
